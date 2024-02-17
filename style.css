@@ -119,4 +119,11 @@ a[target = "_blank"]:hover {
         margin-top: 0px;
         margin-bottom: 0px;
     }
+    #searchArea div {
+        clear: both;
+    }
+    #searchArea div:first-child,
+    #searchArea div:last-child {
+        font-size: large;
+    }
 }
