@@ -96,8 +96,28 @@ a[target = "_blank"]:hover {
 }
 
 
-@media screen and (max-width: 992px) {
-
+@media screen and (max-width: 1080px) {
+    li {
+        margin-right: 2px;
+        font-size: 18px;
+    }
+    ul {
+        margin-left: 2px;
+        margin-top: 2px;
+        margin-bottom: 2px;
+    }
+    #footer h3 {
+        font-size: medium;
+        margin-top: 1px;
+    }
+    #footer p {
+        font-size: small;
+        margin-top: 1px;
+        margin-bottom: 1px;
+    }
+    #searchArea .col-2 {
+        clear: both
+    } 
 }
 
 @media screen and (max-width: 580px) {  
